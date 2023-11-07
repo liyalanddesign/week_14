@@ -1,0 +1,64 @@
+.card {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.card_container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.card_poster {
+  display: block;
+  width: 30%;
+  max-width: 220px;
+  height: 100%;
+}
+.card_body {
+  max-width: 70%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_title {
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.card_text {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.card_rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.card_rating {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 16px;
+}
+.review-list {
+  border: 1px solid #dadada;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 16px;
+}
+.review {
+  font-size: 15px;
+  color: #222;
+}
+.review_span {
+  color: #888 !important;
+}
+.form-submit {
+}
+
+.form-submit-textarea {
+  width: 100%;
+}

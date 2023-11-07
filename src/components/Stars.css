@@ -1,0 +1,17 @@
+.rating {
+  display: flex;
+  flex-direction: row;
+  /* min-width: 50%; */
+  align-items: center;
+}
+
+.btn_rating {
+  padding: 0 12px;
+  margin: 0 12px;
+}
+
+.rating_score {
+  font-size: 24px;
+  font-weight: 900;
+  color: #111;
+}
